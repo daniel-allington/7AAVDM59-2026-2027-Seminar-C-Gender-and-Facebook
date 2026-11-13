@@ -1,0 +1,19 @@
+---
+title: "Gender and Facebook Use"
+author: "Daniel Allington"
+date: "2026-11-13"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(dplyr)
+library(readr)
+
+d_gender_socmed <- read_csv('../data/BES-2017-f2f-gender-fb-tw.csv')
+
+```
+
+
+
